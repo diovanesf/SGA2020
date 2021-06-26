@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>RF02 - Cadastro de Proprietário</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Cadastro Proprietario</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost/rpvi/projetorpvi/amostras<datalist><option>http://localhost/rpvi/projetorpvi/amostras</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Cadastros<datalist><option>link=Cadastros</option><option>xpath=(//a[contains(@href, '#')])[2]</option><option>//li/a</option><option>css=a.dropdown-toggle</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Proprietário<datalist><option>link=Proprietário</option><option>//a[@href='http://localhost/rpvi/projetorpvi/proprietarios']</option><option>//li[4]/a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(//button[@type='button'])[5]<datalist><option>xpath=(//button[@type='button'])[5]</option><option>//body/div/div/div/div/button</option><option>css=button.btn.btn-info.btn-lg.glyphicon-plus</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=nome<datalist><option>name=nome</option><option>//input[@id='']</option><option>//body[@id='body']/div/div/div/div/form/div/div/input</option><option>//div/div/div/div/form/div/div/input</option><option>css=input[name="nome"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=nome<datalist><option>name=nome</option><option>//input[@id='']</option><option>//body[@id='body']/div/div/div/div/form/div/div/input</option><option>//div/div/div/div/form/div/div/input</option><option>css=input[name="nome"]</option></datalist></td><td>Adalberto Perreira</td>
+</tr>
+<tr><td>click</td><td>xpath=(//input[@id=''])[2]<datalist><option>xpath=(//input[@id=''])[2]</option><option>//body[@id='body']/div/div/div/div/form/div[2]/div/input</option><option>//div/div/div/div/form/div[2]/div/input</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>xpath=(//input[@id=''])[2]<datalist><option>xpath=(//input[@id=''])[2]</option><option>//body[@id='body']/div/div/div/div/form/div[2]/div/input</option><option>//div/div/div/div/form/div[2]/div/input</option></datalist></td><td>adalberto@email.com</td>
+</tr>
+<tr><td>click</td><td>name=endereco<datalist><option>name=endereco</option><option>xpath=(//input[@id=''])[3]</option><option>//body[@id='body']/div/div/div/div/form/div[3]/div/input</option><option>//div[3]/div/input</option><option>css=input[name="endereco"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=endereco<datalist><option>name=endereco</option><option>xpath=(//input[@id=''])[3]</option><option>//body[@id='body']/div/div/div/div/form/div[3]/div/input</option><option>//div[3]/div/input</option><option>css=input[name="endereco"]</option></datalist></td><td>R. Auxilio</td>
+</tr>
+<tr><td>click</td><td>id=telefone<datalist><option>id=telefone</option><option>name=telefone</option><option>//input[@id='telefone']</option><option>//body[@id='body']/div/div/div/div/form/div[4]/div/input</option><option>//div[4]/div/input</option><option>css=#telefone</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=telefone<datalist><option>id=telefone</option><option>name=telefone</option><option>//input[@id='telefone']</option><option>//body[@id='body']/div/div/div/div/form/div[4]/div/input</option><option>//div[4]/div/input</option><option>css=#telefone</option></datalist></td><td>(33) 33333-3333</td>
+</tr>
+<tr><td>click</td><td>name=cidade<datalist><option>name=cidade</option><option>xpath=(//input[@id=''])[4]</option><option>//body[@id='body']/div/div/div/div/form/div[5]/div/input</option><option>//div[5]/div/input</option><option>css=input[name="cidade"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=cidade<datalist><option>name=cidade</option><option>xpath=(//input[@id=''])[4]</option><option>//body[@id='body']/div/div/div/div/form/div[5]/div/input</option><option>//div[5]/div/input</option><option>css=input[name="cidade"]</option></datalist></td><td>Uberlandia</td>
+</tr>
+<tr><td>click</td><td>name=estado<datalist><option>name=estado</option><option>//select[@name='estado']</option><option>//body[@id='body']/div/div/div/div/form/div[6]/select</option><option>//select</option><option>css=select[name="estado"]</option></datalist></td><td></td>
+</tr>
+<tr><td>select</td><td>name=estado<datalist><option>name=estado</option><option>//select[@name='estado']</option><option>//body[@id='body']/div/div/div/div/form/div[6]/select</option><option>//select</option><option>css=select[name="estado"]</option></datalist></td><td>label=Maranhão - MA</td>
+</tr>
+<tr><td>click</td><td>name=cep<datalist><option>name=cep</option><option>xpath=(//input[@id=''])[5]</option><option>//body[@id='body']/div/div/div/div/form/div[7]/div/input</option><option>//div[7]/div/input</option><option>css=input[name="cep"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=cep<datalist><option>name=cep</option><option>xpath=(//input[@id=''])[5]</option><option>//body[@id='body']/div/div/div/div/form/div[7]/div/input</option><option>//div[7]/div/input</option><option>css=input[name="cep"]</option></datalist></td><td>1111111111</td>
+</tr>
+<tr><td>click</td><td>name=gps<datalist><option>name=gps</option><option>xpath=(//input[@id=''])[6]</option><option>//body[@id='body']/div/div/div/div/form/div[8]/div/input</option><option>//div[8]/div/input</option><option>css=input[name="gps"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=gps<datalist><option>name=gps</option><option>xpath=(//input[@id=''])[6]</option><option>//body[@id='body']/div/div/div/div/form/div[8]/div/input</option><option>//div[8]/div/input</option><option>css=input[name="gps"]</option></datalist></td><td>4313411</td>
+</tr>
+<tr><td>click</td><td>xpath=(//button[@type='submit'])[2]<datalist><option>xpath=(//button[@type='submit'])[2]</option><option>//body[@id='body']/div/div/div/div/form/div[9]/button</option><option>//div[9]/button</option><option>css=button.btn.btn-lg.btn-success.pull-right</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Editar Proprietario</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost/rpvi/projetorpvi/proprietarios<datalist><option>http://localhost/rpvi/projetorpvi/proprietarios</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Cadastros<datalist><option>link=Cadastros</option><option>xpath=(//a[contains(@href, '#')])[2]</option><option>//li/a</option><option>css=a.dropdown-toggle</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Proprietário<datalist><option>link=Proprietário</option><option>//a[@href='http://localhost/rpvi/projetorpvi/proprietarios']</option><option>//li[4]/a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//table[@id='tableNB']/tbody/tr/td[4]/div[2]/form/button/i<datalist><option>//table[@id='tableNB']/tbody/tr/td[4]/div[2]/form/button/i</option><option>//button/i</option><option>css=i.fa.fa-pencil</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=nome<datalist><option>name=nome</option><option>//input[@id='']</option><option>//body[@id='body']/div/div/div/div/form/div/div/div/div/input</option><option>//div/div/div/div/input</option><option>css=input[name="nome"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=nome<datalist><option>name=nome</option><option>//input[@id='']</option><option>//body[@id='body']/div/div/div/div/form/div/div/div/div/input</option><option>//div/div/div/div/input</option><option>css=input[name="nome"]</option></datalist></td><td>Carlos Almeida</td>
+</tr>
+<tr><td>click</td><td>xpath=(//input[@id=''])[2]<datalist><option>xpath=(//input[@id=''])[2]</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[2]/div/input</option><option>//div/div/div[2]/div/input</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(//input[@id=''])[2]<datalist><option>xpath=(//input[@id=''])[2]</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[2]/div/input</option><option>//div/div/div[2]/div/input</option></datalist></td><td></td>
+</tr>
+<tr><td>doubleClick</td><td>xpath=(//input[@id=''])[2]<datalist><option>xpath=(//input[@id=''])[2]</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[2]/div/input</option><option>//div/div/div[2]/div/input</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>xpath=(//input[@id=''])[2]<datalist><option>xpath=(//input[@id=''])[2]</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[2]/div/input</option><option>//div/div/div[2]/div/input</option></datalist></td><td>carlos@email.com</td>
+</tr>
+<tr><td>click</td><td>xpath=(//input[@id=''])[3]<datalist><option>xpath=(//input[@id=''])[3]</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[3]/div/input</option><option>//div[3]/div/input</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>xpath=(//input[@id=''])[3]<datalist><option>xpath=(//input[@id=''])[3]</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[3]/div/input</option><option>//div[3]/div/input</option></datalist></td><td>R. Livinaldo, 555</td>
+</tr>
+<tr><td>click</td><td>id=telefone<datalist><option>id=telefone</option><option>name=telefone</option><option>//input[@id='telefone']</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[4]/div/input</option><option>//div[4]/div/input</option><option>css=#telefone</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=telefone<datalist><option>id=telefone</option><option>name=telefone</option><option>//input[@id='telefone']</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[4]/div/input</option><option>//div[4]/div/input</option><option>css=#telefone</option></datalist></td><td></td>
+</tr>
+<tr><td>doubleClick</td><td>id=telefone<datalist><option>id=telefone</option><option>name=telefone</option><option>//input[@id='telefone']</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[4]/div/input</option><option>//div[4]/div/input</option><option>css=#telefone</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=telefone<datalist><option>id=telefone</option><option>name=telefone</option><option>//input[@id='telefone']</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[4]/div/input</option><option>//div[4]/div/input</option><option>css=#telefone</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=telefone<datalist><option>id=telefone</option><option>name=telefone</option><option>//input[@id='telefone']</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[4]/div/input</option><option>//div[4]/div/input</option><option>css=#telefone</option></datalist></td><td>(41) 111111-1111</td>
+</tr>
+<tr><td>click</td><td>name=cidade<datalist><option>name=cidade</option><option>xpath=(//input[@id=''])[4]</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[5]/div/input</option><option>//div[5]/div/input</option><option>css=input[name="cidade"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=cidade<datalist><option>name=cidade</option><option>xpath=(//input[@id=''])[4]</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[5]/div/input</option><option>//div[5]/div/input</option><option>css=input[name="cidade"]</option></datalist></td><td></td>
+</tr>
+<tr><td>doubleClick</td><td>name=cidade<datalist><option>name=cidade</option><option>xpath=(//input[@id=''])[4]</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[5]/div/input</option><option>//div[5]/div/input</option><option>css=input[name="cidade"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=cidade<datalist><option>name=cidade</option><option>xpath=(//input[@id=''])[4]</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[5]/div/input</option><option>//div[5]/div/input</option><option>css=input[name="cidade"]</option></datalist></td><td>Alegrete</td>
+</tr>
+<tr><td>click</td><td>id=combo1<datalist><option>id=combo1</option><option>name=estado</option><option>//select[@id='combo1']</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[6]/select</option><option>//select</option><option>css=#combo1</option></datalist></td><td></td>
+</tr>
+<tr><td>select</td><td>id=combo1<datalist><option>id=combo1</option><option>name=estado</option><option>//select[@id='combo1']</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[6]/select</option><option>//select</option><option>css=#combo1</option></datalist></td><td>label=Rio Grande do Sul - RS</td>
+</tr>
+<tr><td>click</td><td>name=cep<datalist><option>name=cep</option><option>xpath=(//input[@id=''])[5]</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[7]/div/input</option><option>//div[7]/div/input</option><option>css=input[name="cep"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=cep<datalist><option>name=cep</option><option>xpath=(//input[@id=''])[5]</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[7]/div/input</option><option>//div[7]/div/input</option><option>css=input[name="cep"]</option></datalist></td><td>99999999</td>
+</tr>
+<tr><td>click</td><td>xpath=(//input[@id=''])[6]<datalist><option>xpath=(//input[@id=''])[6]</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[8]/div/input</option><option>//div[8]/div/input</option><option>css=div.col-lg-6.form-group &gt; div &gt; input[name="telefone"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(//input[@id=''])[6]<datalist><option>xpath=(//input[@id=''])[6]</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[8]/div/input</option><option>//div[8]/div/input</option><option>css=div.col-lg-6.form-group &gt; div &gt; input[name="telefone"]</option></datalist></td><td></td>
+</tr>
+<tr><td>doubleClick</td><td>xpath=(//input[@id=''])[6]<datalist><option>xpath=(//input[@id=''])[6]</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[8]/div/input</option><option>//div[8]/div/input</option><option>css=div.col-lg-6.form-group &gt; div &gt; input[name="telefone"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>xpath=(//input[@id=''])[6]<datalist><option>xpath=(//input[@id=''])[6]</option><option>//body[@id='body']/div/div/div/div/form/div/div/div[8]/div/input</option><option>//div[8]/div/input</option><option>css=div.col-lg-6.form-group &gt; div &gt; input[name="telefone"]</option></datalist></td><td>00000</td>
+</tr>
+<tr><td>click</td><td>//button[@type=' submit']<datalist><option>//button[@type=' submit']</option><option>//body[@id='body']/div/div/div/div/form/button</option><option>//form/button</option><option>css=button.btn.btn-lg.btn-success.pull-right</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Excluir Proprietario</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost/rpvi/projetorpvi/proprietarios?<datalist><option>http://localhost/rpvi/projetorpvi/proprietarios?</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//i<datalist><option>//i</option><option>css=i.glyphicon.glyphicon-plus</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Proprietário<datalist><option>link=Proprietário</option><option>//a[@href='http://localhost/rpvi/projetorpvi/proprietarios']</option><option>//li[4]/a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(//button[@type='submit'])[3]<datalist><option>xpath=(//button[@type='submit'])[3]</option><option>//table[@id='tableNB']/tbody/tr/td[4]/div[3]/button</option><option>//td[4]/div[3]/button</option><option>css=div.col-sm-2 &gt; button.btn.btn-danger</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[2]/button<datalist><option>//div[2]/button</option><option>css=button.ajs-button.ajs-ok</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
